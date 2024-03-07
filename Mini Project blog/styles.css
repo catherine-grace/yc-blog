@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafbf0;
+  }
+  
+  header {
+    background-color: #afafd7;
+    color: #d7d7ff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .content {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .show-btn {
+    cursor: pointer;
+    color: #3498db;
+    font-weight: bold;
+  }
+
+  #author-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #author-info {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #author-info img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  #author-info h2 {
+    color: #333;
+  }
+  
+  #social-links {
+    margin-top: 10px;
+  }
+  
+  #social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #3498db;
+    text-decoration: none;
+  }
+
+  #comment-section {
+    margin-top: 30px;
+  }
+  
+  #comments-container {
+    margin-bottom: 15px;
+  }
+  
+  #comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
